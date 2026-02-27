@@ -129,7 +129,7 @@ maison_margiela_item = [{
 ]
 
 for index, item in enumerate(maison_margiela_item):
-    print(index, ":", item["name"])
+    print(index, "choice", item["name"])
     choice = int(input("Item number:"))
     print(maison_margiela_item["name"])
     
