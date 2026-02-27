@@ -13,7 +13,7 @@
 # they are done shopping, print the names of the items purchased and the
 # total of the cart.
 
-item = [{
+maison_margiela_item = [{
     "name": "Replica Under the Stars eau de toilette",
     "price": 170,
     "department": "Fragrances",
@@ -29,66 +29,66 @@ item = [{
 {   "name": "Denim Shirt",
     "price": 1295,
     "department": "Shirt",
-    "description": "This shirt in Japanese denim embraces workwear origins and reinterprets them through a lived-in finish. Fading, tonal repair marks and softened seams infuse a sense of continuity, while straight lines and a Memory of pocket define the design. At the back, the Maison’s signature four stitches appear; the opposite of a label."
+    "description": "This shirt in Japanese denim embraces workwear origins and reinterprets them through a lived-in finish. Fading, tonal repair marks and softened seams infuse a sense of continuity, while straight lines and a Memory of pocket define the design. At the back, the Maisons signature four stitches appear; the opposite of a label."
 },
 { "name": "5AC loved to death medium",
     "price": 3160,
     "department": "",
-    "description": "This shirt in Japanese denim embraces workwear origins and reinterprets them through a lived-in finish. Fading, tonal repair marks and softened seams infuse a sense of continuity, while straight lines and a Memory of pocket define the design. At the back, the Maison’s signature four stitches appear; the opposite of a label."
+    "description": "This shirt in Japanese denim embraces workwear origins and reinterprets them through a lived-in finish. Fading, tonal repair marks and softened seams infuse a sense of continuity, while straight lines and a Memory of pocket define the design. At the back, the Maisons signature four stitches appear; the opposite of a label."
 },
 {
     "name": "5AC Classique Baby Bag",
     "price": 1890,
     "department": "Bag",
-    "description": "The 5AC Classique Baby bag is crafted in grained calf leather with a structured silhouette and top handles. The design explores the Maison’s Anonymity of the Lining concept with an exposed lining and zip closure. Finished with the numeric logo label and the iconic four white stitches at the back."
+    "description": "The 5AC Classique Baby bag is crafted in grained calf leather with a structured silhouette and top handles. The design explores the Maisons Anonymity of the Lining concept with an exposed lining and zip closure. Finished with the numeric logo label and the iconic four white stitches at the back."
 },
 {
     "name": "Glam Slam Red Carpet Bag",
     "price": 2450,
     "department": "Bag",
-    "description": "The Glam Slam Red Carpet bag is defined by its quilted nappa leather construction inspired by matelassé techniques. Soft and pillowy in texture, it features a chain strap and the Maison’s numeric logo detail, embodying comfort and couture craftsmanship."
+    "description": "The Glam Slam Red Carpet bag is defined by its quilted nappa leather construction inspired by matelassé techniques. Soft and pillowy in texture, it features a chain strap and the Maisons numeric logo detail, embodying comfort and couture craftsmanship."
 },
 {
     "name": "Snatched Small Top-Handle Bag",
     "price": 2190,
     "department": "Bag",
-    "description": "The Snatched Small bag is designed with sharp architectural lines and a distinctive cut-out handle. Crafted in smooth leather, it can be worn by hand or crossbody and is accented with the Maison’s signature four stitches at the back."
+    "description": "The Snatched Small bag is designed with sharp architectural lines and a distinctive cut-out handle. Crafted in smooth leather, it can be worn by hand or crossbody and is accented with the Maisons signature four stitches at the back."
 },
 {
     "name": "Tabi Leather Ankle Boots",
     "price": 1290,
     "department": "Shoes",
-    "description": "The iconic Tabi ankle boots are crafted in soft leather with a cylindrical heel and the Maison’s signature split-toe silhouette inspired by traditional Japanese socks. Hand-finished details highlight the artisanal heritage of the design."
+    "description": "The iconic Tabi ankle boots are crafted in soft leather with a cylindrical heel and the Maisons signature split-toe silhouette inspired by traditional Japanese socks. Hand-finished details highlight the artisanal heritage of the design."
 },
 {
     "name": "Replica Leather Sneakers",
     "price": 620,
     "department": "Shoes",
-    "description": "Replica sneakers reinterpret classic Austrian sports footwear from the 1970s. Made in smooth calf leather with suede panels, they feature a gum sole and subtle branding, finished with the Maison’s signature stitch detail."
+    "description": "Replica sneakers reinterpret classic Austrian sports footwear from the 1970s. Made in smooth calf leather with suede panels, they feature a gum sole and subtle branding, finished with the Maisons signature stitch detail."
 },
 {
     "name": "Evolution Low-Top Sneakers",
     "price": 690,
     "department": "Shoes",
-    "description": "The Evolution low-top sneakers combine technical mesh, leather and suede for a dynamic layered look. Set on a lightweight sole, they reflect the Maison’s contemporary approach to athletic design."
+    "description": "The Evolution low-top sneakers combine technical mesh, leather and suede for a dynamic layered look. Set on a lightweight sole, they reflect the Maisons contemporary approach to athletic design."
 },
 {
     "name": "Four Stitches Card Holder",
     "price": 295,
     "department": "Small Leather Goods",
-    "description": "Crafted in grained leather, the Four Stitches card holder features multiple card slots and the Maison’s iconic four white stitches at the back – the opposite of a label – emphasizing anonymity and understated luxury."
+    "description": "Crafted in grained leather, the Four Stitches card holder features multiple card slots and the Maisons iconic four white stitches at the back  the opposite of a label  emphasizing anonymity and understated luxury."
 },
 {
     "name": "Numeric Logo Bifold Wallet",
     "price": 495,
     "department": "Small Leather Goods",
-    "description": "This bifold wallet is made in supple calf leather and detailed with the Maison’s numeric logo inside. Designed with multiple compartments for cards and cash, it combines functionality with minimalist aesthetics."
+    "description": "This bifold wallet is made in supple calf leather and detailed with the Maisons numeric logo inside. Designed with multiple compartments for cards and cash, it combines functionality with minimalist aesthetics."
 },
 {
     "name": "Décortiqué Wool Blazer",
     "price": 1895,
     "department": "Clothing",
-    "description": "The Décortiqué wool blazer reinterprets classic tailoring through exposed seams and layered construction. Crafted in fine wool, it reflects the Maison’s deconstruction ethos while maintaining a refined silhouette."
+    "description": "The Décortiqué wool blazer reinterprets classic tailoring through exposed seams and layered construction. Crafted in fine wool, it reflects the Maisons deconstruction ethos while maintaining a refined silhouette."
 },
 {
     "name": "Oversized Knit Sweater",
@@ -127,3 +127,10 @@ item = [{
     "description": "The Tabi ballerina flats reinterpret the Maison’s iconic split-toe design in a delicate ballet silhouette. Made in supple leather with a slim sole, they embody avant-garde tradition and timeless elegance."
 }
 ]
+
+for index, item in enumerate(maison_margiela_item):
+    print(index, ":", item["name"])
+    choice = int(input("Item number:"))
+    print(maison_margiela_item["name"])
+    
+    
