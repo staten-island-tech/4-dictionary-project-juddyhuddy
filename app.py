@@ -127,9 +127,11 @@ maison_margiela_item = [{
     "description": "The Tabi ballerina flats reinterpret the Maison’s iconic split-toe design in a delicate ballet silhouette. Made in supple leather with a slim sole, they embody avant-garde tradition and timeless elegance."
 }
 ]
-choice = int(input("What is the item number"))
+
+choice = int(input("Item Number?"))
 for index, item in enumerate(maison_margiela_item):
     print(index, ":", item["name"])
+print(maison_margiela_item[choice])
     
     
     
