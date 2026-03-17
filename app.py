@@ -128,15 +128,19 @@ maison_margiela_item = [{
 }
 ]
 
+<<<<<<< HEAD
 # You will now make the app more complex by incorporating while loops and
 # a “cart”. Users will be shown the list of items and asked to purchase one.
 # Afterwards ask the user if they wish to continue. Once the user has decided
 # they are done shopping, print the names of the items purchased and the
 # total of the cart.
+=======
+>>>>>>> c55a98da71dbe9cfc0235189bbf7ee5e3f4f8a40
 
 for index, item in enumerate(maison_margiela_item):
     print(index, ":", item)
 choice = int(input("Item Number?"))
+<<<<<<< HEAD
 print(maison_margiela_item[choice]['name'])
 x = (input("continue?"))
 while x == ("yes"):
@@ -147,6 +151,9 @@ if x == ("no"):
     print("okay")
 
 
+=======
+print(maison_margiela_item[choice]["name"])
+>>>>>>> c55a98da71dbe9cfc0235189bbf7ee5e3f4f8a40
     
     
     
