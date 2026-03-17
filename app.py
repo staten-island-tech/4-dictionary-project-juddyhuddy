@@ -134,18 +134,23 @@ maison_margiela_item = [{
 # they are done shopping, print the names of the items purchased and the
 # total of the cart.
 cart = []
+total = 0
 for index, item in enumerate(maison_margiela_item):
     print(index, ":", item)
 choice = int(input("Item Number?"))
+total += (maison_margiela_item[choice]['price'])
 cart.append(maison_margiela_item[choice]['name'])
 print(maison_margiela_item[choice]['name'])
 x = (input("continue?"))
 while x == ("yes"):
     choice = int(input("Item Number?"))
+    cart.append(maison_margiela_item[choice]['name'])
+    total += (maison_margiela_item[choice]['price'])
     print(maison_margiela_item[choice]['name'])
     x = (input("continue?"))
 if x == ("no"):
     print(cart)
+    print(total)
 
 
     
